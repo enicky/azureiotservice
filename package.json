@@ -1,0 +1,26 @@
+{
+  "author": "YOU <YOU@example.com>",
+  "name": "my_actionhero_project",
+  "description": "my actionhero project",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "actionhero": "16.0.0",
+    "azure-iot-common": "^1.1.4",
+    "azure-iothub": "^1.1.6",
+    "fakeredis": "latest",
+    "ioredis": "latest",
+    "ws": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "should": "latest"
+  },
+  "scripts": {
+    "start": "actionhero start",
+    "actionhero": "actionhero",
+    "test": "NODE_ENV=test mocha"
+  }
+}
